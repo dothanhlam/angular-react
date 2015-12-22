@@ -19,6 +19,7 @@
     "shelljs": "^0.2.6"
   },
   "scripts": {
+    "react-jsx" : "babel --presets react --watch app/components --out-dir app/react",
     "postinstall": "bower install",
     "prestart": "npm install",
     "start": "http-server -a localhost -p 8000 -c-1",
