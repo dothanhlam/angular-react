@@ -10,8 +10,4 @@ angular.module('myApp.authentication', ['ngRoute'])
             templateUrl: 'authentication/authentication.html',
             controller: 'AuthenticationController'
         });
-    }])
-
-    .controller('AuthenticationController', ['$scope', function ($scope) {
-
     }]);
