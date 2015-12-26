@@ -18,6 +18,6 @@ var MyList = React.createClass({
                     </tr>);
 
         });
-        return (<table>{rows}</table>)
+        return (<table><tbody>{rows}</tbody></table>)
     }
 });
